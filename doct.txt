@@ -1,0 +1,23 @@
+1. crete python application 
+       \-> crete requirements.txt file 
+
+2.  Build Dockerfile   -->   Run Docker Image   -->   Run Docker Container 
+
+
+
+
+# app is python file name => app.py
+
+Comments    vs-code 
+1. python app.py
+2. docker build -t app .                       -> Build docker image
+3. docker images                               -> Shows local Docker images.
+4. docker run -i app                           -> Attempts to run an image named app interactively.
+5. docker tag app sandeepsuthar169/app:lates   -> Tag your image
+6. docker push sandeepsuthar169/app:latest     ->Pull image from dockerhub
+
+Comments  Docker desktop
+1. docker login                                -> Assure that logged in
+2. docker tag app sandeepsuthar169/app:lates   -> Tag your image
+3. docker push sandeepsuthar169/app:latest     -> Push image to dockerhub
+4. docker pull sandeepsuthar169/app:latest     -> Pull image from dockerhub
