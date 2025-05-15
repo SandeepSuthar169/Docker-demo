@@ -52,4 +52,3 @@ docker run -i app
  docker push sandeepsuthar169/app:latest
 ```
 
-Feel free to contribute to this project by submitting issues or pull requests.
